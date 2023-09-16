@@ -13,6 +13,6 @@ class TesteController extends Controller
 
         //return view('site.teste', compact('p1', 'p2')); //Usando o método Compact
 
-        return view('site.teste')->with('p1', $p1)->with('p2', $p2); //with()
+        return view('site.teste')->with('p1', $p1)->with('p2', $p2); //usando with()
     }
 }
